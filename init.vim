@@ -1,4 +1,7 @@
 " basic settings
+set expandtab
+set shiftwidth=4
+set softtabstop=4
 filetype plugin indent on
 syntax enable
 
@@ -17,6 +20,7 @@ Plug 'tpope/vim-markdown'
 Plug 'othree/html5.vim'
 Plug 'groenewege/vim-less'
 Plug 'elzr/vim-json'
+Plug 'digitaltoad/vim-pug'
 
 " git support
 Plug 'tpope/vim-fugitive'
